@@ -1,0 +1,9 @@
+faiss-cpu
+sentence-transformers
+pymupdf
+transformers
+pillow
+groq
+gradio
+numpy
+python-dotenv
