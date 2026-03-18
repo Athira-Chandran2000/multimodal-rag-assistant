@@ -1,4 +1,5 @@
 ```markdown
+```
 # Multimodal Enterprise Document Assistant (RAG)
 
 I architected and deployed a Multimodal Retrieval-Augmented Generation (RAG) system that allows users to interactively query complex enterprise PDFs containing both text and images. Built primarily with Python, the backend leverages a dual-embedding strategy using HuggingFace models (Sentence-Transformers and CLIP), storing the high-dimensional vectors in a local FAISS database for highly efficient semantic search. For the generative component, I integrated the Groq API (running LLaMA 3.1) to ensure ultra-low latency inference. Users interact with the pipeline through an intuitive Gradio web interface, where they can dynamically upload documents and receive context-grounded, natural language answers.
@@ -34,7 +35,7 @@ The system follows a local-to-cloud RAG pipeline tailored for multimodal documen
 * **Embedding Models:** HuggingFace `sentence-transformers`, OpenAI `CLIP`
 * **Document Parsing:** PyMuPDF (`fitz`), Pillow
 * **Frontend UI:** Gradio
-
+```
 ## Local Setup & Installation
 
 ### 1. Clone the repository
